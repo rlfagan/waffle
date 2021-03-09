@@ -11,6 +11,7 @@ WAFFLE - Windows Authentication Framework
 [![Project Stats](https://www.openhub.net/p/waffle/widgets/project_thin_badge.gif)](https://www.openhub.net/p/waffle)
 [![Github All Releases](https://img.shields.io/github/downloads/Waffle/waffle/total.svg)](https://github.com/Waffle/waffle/releases/tag/waffle-parent-2.3.0)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Waffle_waffle&metric=alert_status)](https://sonarcloud.io/dashboard?id=Waffle_waffle)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fwaffle.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fwaffle?ref=badge_shield)
 
 ![waffle](https://github.com/Waffle/waffle/raw/master/waffle.jpg)
 
@@ -98,3 +99,7 @@ Copyright (c) [Application Security Inc.](https://www.trustwave.com/Company/AppS
 This project is licensed under the [MIT License](https://github.com/Waffle/waffle/blob/master/LICENSE).
 
 Project maintained by [Daniel Doubrovkine](https://github.com/dblock) & [Jeremy Landis](https://github.com/hazendaz).
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Frlfagan%2Fwaffle.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Frlfagan%2Fwaffle?ref=badge_large)
