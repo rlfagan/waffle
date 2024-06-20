@@ -1,0 +1,1054 @@
+repo_name: rlfagan/waffle
+report_id: 937065d61f39615f8d91f2da6e11772e
+version: 0.1
+repo_type: Public
+timestamp: '2024-06-20T23:09:40+00:00'
+requested_by: hazendaz
+provider: github
+branch: master
+detected_tools_count: 65
+tools:
+- name: ASP.NET
+  description: An open source web framework for building modern web apps and services
+    with .NET
+  website_url: https://www.asp.net/
+  version: '4.0'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/Version/Version.csproj
+  detection_source: Source/Version/Version.csproj
+  last_updated_by: dB
+  last_updated_on: 2014-07-15 10:54:09.000000000 Z
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/rlfagan/waffle
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/rlfagan/waffle
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/WindowsAuthProviderUnitTests/packages.config
+  detection_source: Source/WindowsAuthProviderUnitTests/packages.config
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2016-12-22 08:33:33.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  version: 5.3.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-spring-security5/pom.xml
+  detection_source: Source/JNA/waffle-spring-security5/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-17 05:27:42.000000000 Z
+- name: FindBugs
+  description: An open-source static code analyser
+  website_url: http://findbugs.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/2662/kWjFjx3K_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/pom.xml
+  detection_source: Source/JNA/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2016-07-24 03:53:54.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/rlfagan/waffle
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/.github/workflows/ci.net.yaml
+  detection_source: ".github/workflows/ci.net.yaml"
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-11-25 23:07:06.000000000 Z
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/pom.xml
+  detection_source: Source/JNA/pom.xml
+  last_updated_by: David M. Carr
+  last_updated_on: 2012-12-11 03:09:20.000000000 Z
+- name: Logback
+  description: A logging framework for Java applications
+  website_url: https://logback.qos.ch/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2923/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-demo/pom.xml
+  detection_source: Source/JNA/waffle-demo/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2019-12-28 21:13:21.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 3.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-tests-jakarta/pom.xml
+  detection_source: Source/JNA/waffle-tests-jakarta/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-23 05:26:15.000000000 Z
+- name: NUnit
+  description: An open-source unit testing framework
+  website_url: http://www.nunit.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2371/jZ6MYx5Y_400x400.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/WindowsAuthProviderUnitTests/packages.config
+  detection_source: Source/WindowsAuthProviderUnitTests/packages.config
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2021-01-23 03:24:21.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/WindowsAuthProviderUnitTests/packages.config
+  detection_source: Source/WindowsAuthProviderUnitTests/packages.config
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2016-12-22 08:33:33.000000000 Z
+- name: SLF4J
+  description: Simple logging facade for Java
+  website_url: http://slf4j.org/
+  open_source: false
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/2805/05518ecaa42841e834421e9d6987b04f_400x400.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/pom.xml
+  detection_source: Source/JNA/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2016-07-29 01:20:03.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Waffle.sln
+  detection_source: Waffle.sln
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2016-12-20 04:47:42.000000000 Z
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-demo/waffle-spring-boot-filter2/src/main/resources/application.properties
+  detection_source: Source/JNA/waffle-demo/waffle-spring-boot-filter2/src/main/resources/application.properties
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2018-04-08 18:22:08.000000000 Z
+- name: Wix
+  description: Wix.com is a web development platform enabling anyone to build a stunning
+    online presence using simple cloud-based creation and management tools.
+  website_url: http://www.wix.com/
+  open_source: false
+  hosted_saas: true
+  category: Application Utilities
+  sub_category: Website Builder
+  image_url: https://img.stackshare.io/service/4656/tvOXJHAG_400x400.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/WindowsAuthProviderMergeModule/packages.config
+  detection_source: Source/WindowsAuthProviderMergeModule/packages.config
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2016-12-22 08:33:33.000000000 Z
+- name: org.apache.shiro:shiro-web
+  version: 1.7.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-shiro/pom.xml
+  detection_source: Source/JNA/waffle-shiro/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-01 06:18:51.000000000 Z
+  vulnerabilities:
+  - name: Path Traversal in Apache Shiro
+    cve_id: CVE-2023-34478
+    cve_url: https://github.com/advisories/GHSA-pmhc-2g4f-85cg
+    detected_date: Jul 26
+    severity: critical
+    first_patched: 1.12.0
+  - name: Open redirect in Apache Shiro
+    cve_id: CVE-2023-46750
+    cve_url: https://github.com/advisories/GHSA-hhw5-c326-822h
+    detected_date: Dec 15
+    severity: moderate
+    first_patched: 1.13.0
+- name: org.springframework.security:spring-security-core
+  description: Spring-security-core
+  version: 5.4.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-spring-security5/pom.xml
+  detection_source: Source/JNA/waffle-spring-security5/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-17 05:27:42.000000000 Z
+  vulnerabilities:
+  - name: Authorization bypass in Spring Security
+    cve_id: CVE-2022-22978
+    cve_url: https://github.com/advisories/GHSA-hh32-7344-cg2f
+    detected_date: May 26
+    severity: critical
+    first_patched: 5.5.7
+  - name: Resource Exhaustion in Spring Security
+    cve_id: CVE-2021-22119
+    cve_url: https://github.com/advisories/GHSA-w9jg-gvgr-354m
+    detected_date: Aug 22
+    severity: high
+    first_patched: 5.4.7
+  - name: Erroneous authentication pass in Spring Security
+    cve_id: CVE-2024-22257
+    cve_url: https://github.com/advisories/GHSA-f3jh-qvm4-mg39
+    detected_date: Mar 19
+    severity: high
+    first_patched: 5.7.12
+  - name: Integer overflow in BCrypt class in Spring Security
+    cve_id: CVE-2022-22976
+    cve_url: https://github.com/advisories/GHSA-wx54-3278-m5g4
+    detected_date: May 26
+    severity: moderate
+    first_patched: 5.5.7
+- name: org.springframework:spring-beans
+  description: Spring Beans
+  version: 5.3.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-spring-security5/pom.xml
+  detection_source: Source/JNA/waffle-spring-security5/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-17 05:27:42.000000000 Z
+  vulnerabilities:
+  - name: Remote Code Execution in Spring Framework
+    cve_id: CVE-2022-22965
+    cve_url: https://github.com/advisories/GHSA-36p3-wjmg-h94x
+    detected_date: Apr 1
+    severity: critical
+    first_patched: 5.3.18
+  - name: Denial of service in Spring Framework
+    cve_id: CVE-2022-22970
+    cve_url: https://github.com/advisories/GHSA-hh26-6xwr-ggv7
+    detected_date: Feb 3
+    severity: high
+    first_patched: 5.3.20
+- name: org.springframework:spring-core
+  description: Spring Core
+  version: 5.3.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-spring-security5/pom.xml
+  detection_source: Source/JNA/waffle-spring-security5/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-17 05:27:42.000000000 Z
+  vulnerabilities:
+  - name: Remote Code Execution in Spring Framework
+    cve_id: CVE-2022-22965
+    cve_url: https://github.com/advisories/GHSA-36p3-wjmg-h94x
+    detected_date: Apr 1
+    severity: critical
+    first_patched: 5.3.18
+  - name: Improper Privilege Management in Spring Framework
+    cve_id: CVE-2021-22118
+    cve_url: https://github.com/advisories/GHSA-gfwj-fwqj-fp3v
+    detected_date: Jun 23
+    severity: high
+    first_patched: 5.3.7
+  - name: Improper handling of case sensitivity in Spring Framework
+    cve_id: CVE-2022-22968
+    cve_url: https://github.com/advisories/GHSA-g5mm-vmx4-3rg7
+    detected_date: Apr 27
+    severity: high
+    first_patched: 5.3.19
+  - name: Denial of service in Spring Framework
+    cve_id: CVE-2022-22970
+    cve_url: https://github.com/advisories/GHSA-hh26-6xwr-ggv7
+    detected_date: May 26
+    severity: high
+    first_patched: 5.3.20
+  - name: Spring Framework vulnerable to denial of service
+    cve_id: CVE-2023-20863
+    cve_url: https://github.com/advisories/GHSA-wxqc-pxw9-g2p8
+    detected_date: Apr 18
+    severity: high
+    first_patched: 5.3.27
+  - name: Spring Framework vulnerable to denial of service via specially crafted SpEL
+      expression
+    cve_id: CVE-2023-20861
+    cve_url: https://github.com/advisories/GHSA-564r-hj7v-mcr5
+    detected_date: Mar 24
+    severity: moderate
+    first_patched: 5.3.26
+  - name: Improper Output Neutralization for Logs in Spring Framework
+    cve_id: CVE-2021-22096
+    cve_url: https://github.com/advisories/GHSA-rfmp-97jj-h8m6
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 5.3.11
+  - name: Allocation of Resources Without Limits or Throttling in Spring Framework
+    cve_id: CVE-2022-22950
+    cve_url: https://github.com/advisories/GHSA-558x-2xjg-6232
+    detected_date: Apr 7
+    severity: moderate
+    first_patched: 5.3.16
+  - name: Allocation of Resources Without Limits or Throttling in Spring Framework
+    cve_id: CVE-2022-22971
+    cve_url: https://github.com/advisories/GHSA-rqph-vqwm-22vc
+    detected_date: May 25
+    severity: moderate
+    first_patched: 5.3.20
+  - name: Log entry injection in Spring Framework
+    cve_id: CVE-2021-22060
+    cve_url: https://github.com/advisories/GHSA-6gf2-pvqw-37ph
+    detected_date: Jan 13
+    severity: moderate
+    first_patched: 5.3.14
+- name: org.springframework:spring-web
+  description: Spring Web
+  version: 5.3.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-spring-security5/pom.xml
+  detection_source: Source/JNA/waffle-spring-security5/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-17 05:27:42.000000000 Z
+  vulnerabilities:
+  - name: Pivotal Spring Framework contains unsafe Java deserialization methods
+    cve_id: CVE-2016-1000027
+    cve_url: https://github.com/advisories/GHSA-4wrc-f8pq-fpqp
+    detected_date: Nov 15
+    severity: critical
+    first_patched: 6.0.0
+  - name: Spring Framework URL Parsing with Host Validation Vulnerability
+    cve_id: CVE-2024-22259
+    cve_url: https://github.com/advisories/GHSA-hgjh-9rj2-g67j
+    detected_date: Mar 19
+    severity: high
+    first_patched: 5.3.33
+  - name: Spring Web vulnerable to Open Redirect or Server Side Request Forgery
+    cve_id: CVE-2024-22243
+    cve_url: https://github.com/advisories/GHSA-ccgv-vj62-xf9h
+    detected_date: Feb 25
+    severity: high
+    first_patched: 5.3.32
+  - name: Improper Privilege Management in Spring Framework
+    cve_id: CVE-2021-22118
+    cve_url: https://github.com/advisories/GHSA-gfwj-fwqj-fp3v
+    detected_date: Jul 20
+    severity: high
+    first_patched: 5.3.7
+  - name: Spring Framework URL Parsing with Host Validation
+    cve_id: CVE-2024-22262
+    cve_url: https://github.com/advisories/GHSA-2wrp-6fg6-hmc5
+    detected_date: Apr 26
+    severity: high
+    first_patched: 5.3.34
+- name: ch.qos.logback:logback-classic
+  description: Logback-classic module
+  version: 1.3.0
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-demo/pom.xml
+  detection_source: Source/JNA/waffle-demo/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2019-12-28 21:13:21.000000000 Z
+  vulnerabilities:
+  - name: logback serialization vulnerability
+    cve_id: CVE-2023-6378
+    cve_url: https://github.com/advisories/GHSA-vmq6-5m68-f53m
+    detected_date: Nov 30
+    severity: high
+    first_patched: 1.3.12
+- name: ch.qos.logback:logback-core
+  description: Logback-core module
+  version: 1.3.0
+  license: EPL-1.0,LGPL-2.1+
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-distro/pom.xml
+  detection_source: Source/JNA/waffle-distro/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-09-06 23:38:11.000000000 Z
+  vulnerabilities:
+  - name: logback serialization vulnerability
+    cve_id: CVE-2023-6378
+    cve_url: https://github.com/advisories/GHSA-vmq6-5m68-f53m
+    detected_date: Nov 30
+    severity: high
+    first_patched: 1.3.12
+- name: org.apache.tomcat:tomcat-catalina
+  description: Tomcat Servlet Engine Core Classes and Standard implementations
+  version: 10.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-tomcat10/pom.xml
+  detection_source: Source/JNA/waffle-tomcat10/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-12-22 22:48:25.000000000 Z
+  vulnerabilities:
+  - name: Potential remote code execution in Apache Tomcat
+    cve_id: CVE-2020-9484
+    cve_url: https://github.com/advisories/GHSA-344f-f5vg-2jfj
+    detected_date: Sep 27
+    severity: high
+    first_patched: 10.0.0-M5
+- name: org.apache.tomcat:tomcat-coyote
+  description: Tomcat Connectors and HTTP parser
+  version: 10.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-tomcat10/pom.xml
+  detection_source: Source/JNA/waffle-tomcat10/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-12-22 22:48:25.000000000 Z
+  vulnerabilities:
+  - name: Apache Tomcat may reject request containing invalid Content-Length header
+    cve_id: CVE-2022-42252
+    cve_url: https://github.com/advisories/GHSA-p22x-g9px-3945
+    detected_date: Apr 24
+    severity: high
+    first_patched: 10.0.27
+  - name: Exposure of Sensitive Information to an Unauthorized Actor in Apache Tomcat
+    cve_id: CVE-2020-13943
+    cve_url: https://github.com/advisories/GHSA-f268-65qc-98vg
+    detected_date: Sep 28
+    severity: moderate
+    first_patched: 10.0.0-M8
+- name: org.springframework.security:spring-security-web
+  description: Spring-security-web
+  version: 5.4.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-spring-security5/pom.xml
+  detection_source: Source/JNA/waffle-spring-security5/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-17 05:27:42.000000000 Z
+  vulnerabilities:
+  - name: Privilege escalation in spring security
+    cve_id: CVE-2021-22112
+    cve_url: https://github.com/advisories/GHSA-gq28-h5vg-8prx
+    detected_date: Aug 22
+    severity: high
+    first_patched: 5.4.4
+- name: org.springframework:spring-context
+  description: Spring Context
+  version: 5.3.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-spring-security5/pom.xml
+  detection_source: Source/JNA/waffle-spring-security5/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-17 05:27:42.000000000 Z
+  vulnerabilities:
+  - name: Improper handling of case sensitivity in Spring Framework
+    cve_id: CVE-2022-22968
+    cve_url: https://github.com/advisories/GHSA-g5mm-vmx4-3rg7
+    detected_date: Feb 3
+    severity: high
+    first_patched: 5.3.19
+- name: org.springframework:spring-expression
+  description: Spring Expression Language
+  version: 5.3.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-spring-security5/pom.xml
+  detection_source: Source/JNA/waffle-spring-security5/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-17 05:27:42.000000000 Z
+  vulnerabilities:
+  - name: Spring Framework vulnerable to denial of service
+    cve_id: CVE-2023-20863
+    cve_url: https://github.com/advisories/GHSA-wxqc-pxw9-g2p8
+    detected_date: Feb 3
+    severity: high
+    first_patched: 5.3.27
+  - name: Spring Framework vulnerable to denial of service via specially crafted SpEL
+      expression
+    cve_id: CVE-2023-20861
+    cve_url: https://github.com/advisories/GHSA-564r-hj7v-mcr5
+    detected_date: Feb 3
+    severity: moderate
+    first_patched: 5.3.26
+  - name: Allocation of Resources Without Limits or Throttling in Spring Framework
+    cve_id: CVE-2022-22950
+    cve_url: https://github.com/advisories/GHSA-558x-2xjg-6232
+    detected_date: Jul 8
+    severity: moderate
+    first_patched: 5.3.17
+- name: com.github.ben-manes.caffeine:caffeine
+  description: A high performance caching library for Java 8+
+  version: 2.9.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-bom/pom.xml
+  detection_source: Source/JNA/waffle-bom/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-17 05:28:24.000000000 Z
+- name: com.google.code.findbugs:jsr305
+  description: JSR305 Annotations for Findbugs
+  version: 3.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/pom.xml
+  detection_source: Source/JNA/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-01-04 06:15:31.000000000 Z
+- name: com.google.errorprone:error_prone_annotations
+  description: Sonatype helps open source projects to set up Maven repositories on
+    https://oss.sonatype.org/
+  version: 2.5.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/pom.xml
+  detection_source: Source/JNA/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-01-15 05:38:44.000000000 Z
+- name: com.google.j2objc:j2objc-annotations
+  description: A set of annotations that provide additional information to the J2ObjC
+    translator to modify the result of translation
+  version: '1.3'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/pom.xml
+  detection_source: Source/JNA/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-12-25 22:27:11.000000000 Z
+- name: commons-beanutils:commons-beanutils
+  description: Apache Commons BeanUtils provides an easy-to-use but flexible wrapper
+    around reflection and introspection
+  version: 1.9.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-shiro/pom.xml
+  detection_source: Source/JNA/waffle-shiro/pom.xml
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2019-08-14 05:32:50.000000000 Z
+- name: net.bytebuddy:byte-buddy
+  description: Byte Buddy is a Java library for creating Java classes at run time
+  version: 1.10.21
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-jna-jakarta/pom.xml
+  detection_source: Source/JNA/waffle-jna-jakarta/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-22 05:49:47.000000000 Z
+- name: net.bytebuddy:byte-buddy-agent
+  description: The Byte Buddy agent offers convenience for attaching an agent to the
+    local or a remote VM
+  version: 1.10.21
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-jna-jakarta/pom.xml
+  detection_source: Source/JNA/waffle-jna-jakarta/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-22 05:49:47.000000000 Z
+- name: net.java.dev.jna:jna
+  description: Java Native Access
+  version: 5.7.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-bom/pom.xml
+  detection_source: Source/JNA/waffle-bom/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-06-06 22:59:12.000000000 Z
+- name: net.java.dev.jna:jna-platform
+  description: Java Native Access Platform
+  version: 5.7.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-bom/pom.xml
+  detection_source: Source/JNA/waffle-bom/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-06-06 22:59:12.000000000 Z
+- name: net.sf.jopt-simple:jopt-simple
+  description: A Java library for parsing command line options
+  version: 5.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/pom.xml
+  detection_source: Source/JNA/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-06-06 22:58:47.000000000 Z
+- name: org.apache.commons:commons-math3
+  description: The Apache Commons Math project is a library of lightweight
+  version: 3.6.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/pom.xml
+  detection_source: Source/JNA/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2021-01-18 20:30:21.000000000 Z
+- name: org.apache.tomcat:tomcat-api
+  description: Definition of interfaces shared by Catalina and Jasper
+  version: 10.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-tomcat10/pom.xml
+  detection_source: Source/JNA/waffle-tomcat10/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-12-22 22:48:25.000000000 Z
+- name: org.apache.tomcat:tomcat-juli
+  description: Tomcat Core Logging Package
+  version: 10.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-tomcat10/pom.xml
+  detection_source: Source/JNA/waffle-tomcat10/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-12-22 22:48:25.000000000 Z
+- name: org.apache.tomcat:tomcat-servlet-api
+  description: Javax.servlet package
+  version: 10.0.0
+  license: Apache-2.0,CDDL-1.1,AAL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-tomcat10/pom.xml
+  detection_source: Source/JNA/waffle-tomcat10/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-12-22 22:48:25.000000000 Z
+- name: org.apache.tomcat:tomcat-util
+  description: Common code shared by multiple Tomcat components
+  version: 10.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-tomcat10/pom.xml
+  detection_source: Source/JNA/waffle-tomcat10/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-12-22 22:48:25.000000000 Z
+- name: org.assertj:assertj-core
+  description: Rich and fluent assertions for testing for Java
+  version: 3.19.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/pom.xml
+  detection_source: Source/JNA/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-01-25 06:03:01.000000000 Z
+- name: org.eclipse.jetty.aggregate:jetty-all
+  description: UberJar for Core Jetty features
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-jetty/pom.xml
+  detection_source: Source/JNA/waffle-jetty/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-03-01 06:20:06.000000000 Z
+- name: org.eclipse.jetty:apache-jsp
+  description: The Eclipse Jetty Project
+  license: Apache-2.0,EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-jetty/pom.xml
+  detection_source: Source/JNA/waffle-jetty/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-03-01 06:20:06.000000000 Z
+- name: org.junit.jupiter:junit-jupiter-engine
+  description: Module "junit-jupiter-engine" of JUnit 5
+  version: 5.7.1
+  license: EPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/pom.xml
+  detection_source: Source/JNA/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-05 05:29:08.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 3.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-tests-jakarta/pom.xml
+  detection_source: Source/JNA/waffle-tests-jakarta/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-23 05:26:15.000000000 Z
+- name: org.objenesis:objenesis
+  description: A library for instantiating Java objects
+  version: '3.1'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-tests-jakarta/pom.xml
+  detection_source: Source/JNA/waffle-tests-jakarta/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-06-07 21:13:10.000000000 Z
+- name: org.openjdk.jmh:jmh-core
+  description: The jmh is a Java harness for building
+  version: '1.28'
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/pom.xml
+  detection_source: Source/JNA/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-12-25 22:27:11.000000000 Z
+- name: org.openjdk.jmh:jmh-generator-annprocess
+  description: JMH benchmark generator, based on annotation processors
+  version: '1.28'
+  license: GPL-3.0-only,GPL-2.0-with-classpath-exception
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/pom.xml
+  detection_source: Source/JNA/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-12-25 22:27:11.000000000 Z
+- name: org.ow2.asm:asm-commons
+  description: Usefull class adapters based on ASM
+  version: '9.1'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-jetty/pom.xml
+  detection_source: Source/JNA/waffle-jetty/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-09-06 21:47:11.000000000 Z
+- name: org.powermock:powermock-reflect
+  description: Various utilities for accessing internals of a class
+  version: 2.0.9
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-jna-jakarta/pom.xml
+  detection_source: Source/JNA/waffle-jna-jakarta/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2020-11-02 06:09:25.000000000 Z
+- name: org.slf4j:jcl-over-slf4j
+  description: JCL 1.2 implemented over SLF4J
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-bom/pom.xml
+  detection_source: Source/JNA/waffle-bom/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-06-06 22:59:12.000000000 Z
+- name: org.slf4j:slf4j-api
+  description: The slf4j API
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-bom/pom.xml
+  detection_source: Source/JNA/waffle-bom/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-06-06 22:59:12.000000000 Z
+- name: org.slf4j:slf4j-simple
+  description: SLF4J Simple binding
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/pom.xml
+  detection_source: Source/JNA/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-12-25 22:27:11.000000000 Z
+- name: org.springframework.boot:spring-boot
+  description: Spring Boot
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-spring-boot2/waffle-spring-boot-autoconfigure2/pom.xml
+  detection_source: Source/JNA/waffle-spring-boot2/waffle-spring-boot-autoconfigure2/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-01-07 04:40:09.000000000 Z
+- name: org.springframework.boot:spring-boot-autoconfigure
+  description: Spring Boot AutoConfigure
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-spring-boot2/waffle-spring-boot-autoconfigure2/pom.xml
+  detection_source: Source/JNA/waffle-spring-boot2/waffle-spring-boot-autoconfigure2/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-01-07 04:40:09.000000000 Z
+- name: org.springframework.boot:spring-boot-configuration-processor
+  description: Spring Boot Configuration Processor
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-spring-boot2/waffle-spring-boot-autoconfigure2/pom.xml
+  detection_source: Source/JNA/waffle-spring-boot2/waffle-spring-boot-autoconfigure2/pom.xml
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2020-12-22 22:48:25.000000000 Z
+- name: org.springframework.boot:spring-boot-starter
+  description: Core starter
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-demo/waffle-spring-boot-filter2/pom.xml
+  detection_source: Source/JNA/waffle-demo/waffle-spring-boot-filter2/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-19 05:28:07.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-demo/waffle-spring-boot-filter2/pom.xml
+  detection_source: Source/JNA/waffle-demo/waffle-spring-boot-filter2/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-19 05:28:07.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-demo/waffle-spring-boot-filter2/pom.xml
+  detection_source: Source/JNA/waffle-demo/waffle-spring-boot-filter2/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-19 05:28:07.000000000 Z
+- name: org.springframework.security:spring-security-config
+  description: Spring-security-config
+  version: 5.4.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/JNA/waffle-spring-security5/pom.xml
+  detection_source: Source/JNA/waffle-spring-security5/pom.xml
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-02-17 05:27:42.000000000 Z
+- name: NUnit.ConsoleRunner
+  description: This package includes the nunit3-console runner and test engine for
+    version 3 of the NUnit unit-testing framework
+  package_url: https://www.nuget.org/NUnit.ConsoleRunner
+  version: 3.12.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14691/default_a53a205a37f47a544aed0de4131b6a5011642490.png
+  detection_source_url: https://github.com/rlfagan/waffle/blob/master/Source/WindowsAuthProviderUnitTests/packages.config
+  detection_source: Source/WindowsAuthProviderUnitTests/packages.config
+  last_updated_by: Jeremy Landis
+  last_updated_on: 2021-01-23 03:24:21.000000000 Z
